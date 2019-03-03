@@ -1,0 +1,114 @@
+/*Set margins to 0 to match current styling*/
+body {
+    margin: 0em;
+    padding-bottom: 446px;
+    font-family: Tahoma,Verdana,Arial,Helvetica;
+
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Styling for the top section and everything inside it. This will change to something more precise with backgrounds and whatnot*/
+#top_section{
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+
+/*Top bar containing the page location, and the menu button*/
+section#top-bar-main {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color:#AF1B26;
+    color: white;
+    height: 58.85px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Menu button*/
+#menuBtn {
+    background: transparent;
+    line-height: 58.85px;
+    height: 58.85;
+    float: right;
+    margin-right: 20px;
+    border: none;
+    width: 93px;
+}
+
+/*Text location for the title of page*/
+#top_section #top-bar-main a {
+    margin-left: 10px;
+    line-height: 58.85px;
+    height: 58.85px;
+    font-family: Tahoma,Verdana,Arial,Helvetica;
+}
+
+/*Image (section) for the main page*/
+#bannerImg {
+    position: relative;
+    height: 499.15px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../img_srcs/fire_extinguish.jpg');
+    background-size: cover;
+    align-content: center;
+}
+#bottomBar {
+    width: 100%;
+    height: 125px;
+    background-color: #BB1616;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.5;
+}
+
+/*Font effect for front page*/
+#EM {
+    position: absolute;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    width: 100%;
+    top: 35%;
+}
+/*Text size*/
+
+p {
+    color: #494A4C;
+}
+
+h2, h1 {
+    color: #890000;
+}
+
+/*Contact info section styling and position*/
+body section#main_content_contact_info {
+    padding-left: 20px;
+    padding-right: 65px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    float: left;
+    background-color: #E5E5E5;
+    color: #AF1B26;
+    width: auto;
+    height: auto;
+}
+
+body section#body {
+    padding: 50px;
+}
+/*Main section content styling and position*/
+body section#main_content_left {
+    padding-left: 45px;
+    padding-right: 45px;
+    float: left;
+    background-color: white;
+    width: 65%;
+    height: auto;
+}

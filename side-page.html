@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/side-page.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/javascript.js"></script>
+    </head>
+    <title>
+        Main Page
+    </title>
+    <!--Begin top bar styling and elements-->
+    <header id="top_bar">
+        <nav class="bellevue_name"> <!--This is the header where it says "City of Bellevue, WA | Fire" -->
+            <a><strong>City of Bellevue, WA</strong> | Fire</a>
+            <button type="submit">
+                <img src="./img_srcs/menubutton.png"/>
+            </button>
+        </nav>
+    </header>
+    <!--End top bar styling and elements-->
+    
+    <!--Begin section for page photo-->
+    <section id="image">
+        <img src="img_srcs/bg_greenery.JPG"/>
+    </section>
+    <!--End section for page photo-->
+    
+    <!--Begin section for bar under image-->
+    <section id="middle_bar">
+        <nav class="middle_bar">
+            <a><strong>Fire / Emergency Management</strong></a> <!--Replace both with links when entire site is done-->
+        </nav>
+    </section>
+    <!--End section for bar under image-->
+
+    <!--Begin section for new hazard links -->
+    <section id="middle_hazard_bar">
+        <!-- IDEA ZONE
+
+        https://jsfiddle.net/solodev/8w11bs53/ use these for sliding the text around?
+        https://www.w3schools.com/howto/howto_js_quotes_slideshow.asp
+
+
+
+        -->
+        <ul class="segmented-control"><!--Segment control code here: https://github.com/springload/segmented-control -->
+            <li class="segmented-control__item">
+                <input class="segmented-control__input" type="radio" value="1" name="option" id="option-1" onclick="currentSlide(value)" checked>
+                <label class="segmented-control__label" for="option-1">Earthquakes</label>
+            </li>
+            <li class="segmented-control__item">
+                <input class="segmented-control__input" type="radio" value="2" name="option" id="option-2" onclick="currentSlide(value)">
+                <label class="segmented-control__label" for="option-2">Drought</label>
+            </li>
+            <li class="segmented-control__item">
+                <input class="segmented-control__input" type="radio" value="3" name="option" id="option-3" onclick="currentSlide(value)">
+                <label class="segmented-control__label" for="option-3">Fires</label>
+            </li>
+            <li class="segmented-control__item">
+                <input class="segmented-control__input" type="radio" value="4" name="option" id="option-4" onclick="currentSlide(value)">
+                <label class="segmented-control__label" for="option-4">Flooding</label>
+            </li>
+            <li class="segmented-control__item">
+                <input class="segmented-control__input" type="radio" value="5" name="option" id="option-5" onclick="currentSlide(value)">
+                <label class="segmented-control__label" for="option-5">Infrastructure Failure</label>
+            </li>
+            <li class="segmented-control__item">
+                <input class="segmented-control__input" type="radio" value="6" name="option" id="option-6" onclick="currentSlide(value)">
+                <label class="segmented-control__label" for="option-6">Landslides</label>
+            </li>
+            <li class="segmented-control__item">
+                <input class="segmented-control__input" type="radio" value="7" name="option" id="option-7" onclick="currentSlide(value)">
+                <label class="segmented-control__label" for="option-7">Pandemic</label>
+            </li>
+            <li class="segmented-control__item">
+                <input class="segmented-control__input" type="radio" value="8" name="option" id="option-8" onclick="currentSlide(value)">
+                <label class="segmented-control__label" for="option-8">Snow and Ice</label>
+            </li>
+            <li class="segmented-control__item">
+                <input class="segmented-control__input" type="radio" value="9" name="option" id="option-9" onclick="currentSlide(value)">
+                <label class="segmented-control__label" for="option-9">Volcanic Activity</label>
+            </li>
+            <li class="segmented-control__item">
+                <input class="segmented-control__input" type="radio" value="10" name="option" id="option-10" onclick="currentSlide(value)">
+                <label class="segmented-control__label" for="option-10">Wind/Power Outage</label>
+            </li>
+        </ul>
+        <nav class="middle_hazard_bar">
+
+            <!-- I CANNOT FOR THE LIFE OF ME GET THE MENU TO LOAD VISUALLY CORRECT IF I PUT THE CODE HERE. MIGHT NEED TO
+            FIX THAT SOMEHOW -->
+
+        </nav>
+    </section>
+    <body onload="showSlides(1)"><!-- THIS WILL LOAD THE FIRST SLIDE WHEN THE PAGE LOADS -->
+        <section id="body">
+
+            <!--Begin left-most section. This is where you put your custom code for the main body of the site!!!-->
+            <section id="main_content_left">
+
+                <!--Add your content here!-->
+
+                <!-- Slideshow container -->
+                <section class="slideshow-container">
+
+                    <!-- Full-width slides/quotes -->
+                    <section class="mySlides">
+                        <h2>Earthquakes</h2>
+                    </section>
+
+                    <section class="mySlides">
+                        <h2>Drought</h2>
+                    </section>
+
+                    <section class="mySlides">
+                        <h2>Fires</h2>
+                    </section>
+
+                    <section class="mySlides">
+                        <h2>Flooding</h2>
+                    </section>
+
+                    <section class="mySlides">
+                        <h2>Infrastructure Failure</h2>
+                    </section>
+
+                    <section class="mySlides">
+                        <h2>Landslides</h2>
+                    </section>
+
+                    <section class="mySlides">
+                        <h2>Pandemic</h2>
+                    </section>
+
+                    <section class="mySlides">
+                        <h2>Snow and Ice</h2>
+                    </section>
+
+                    <section class="mySlides">
+                        <h2>Volcanic Activity</h2>
+                    </section>
+
+                    <section class="mySlides">
+                        <h2>Wind/Power Outage</h2>
+                    </section>
+
+                    <!-- Next/prev buttons -->
+                    <!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>-->
+                </section>
+
+                <!-- Dots/bullets/indicators -->
+                <!--<section class="dot-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </section>-->
+            </section>
+    
+            <!--Begin right-most section-->
+            <section id="main_content_contact_info">
+                <h3>Contact Us</h3> <!--https://bellevuewa.gov/contact-us | What can we do with this?--> 
+                <br>
+                <p>450 110th Avenue N.E.</p>
+                <p>P.O. Box 90012</p>
+                <p>Bellevue, WA 98009</p>
+                
+                <br>
+    
+                <h3>Telephone</h3>
+                <p>425-452-6807</p>
+    
+                <br>
+    
+                <h3>Fax Number</h3>
+                <p>425-452-2840</p>
+    
+                <br>
+    
+                <h3>Email</h3>
+                <p>oem@bellevuewa.gov</p>
+                <p>servicefirst@bellevuewa.gov</p>
+    
+                <br>
+    
+                <h3>Social Media</h3>
+                <p>Buttons go here</p>
+
+                <br>
+
+                <h3>ADA/Title VI Notices</h3><!--https://bellevuewa.gov/city-government/departments/city-managers-office/accessibility/-->
+
+                <br>
+
+                <h3>Careers</h3> <!--https://www.governmentjobs.com/careers/bellevuewa-->
+
+
+            </section>
+            
+        </section>
+
+    </body>
+    
+
+</html>

@@ -1,0 +1,236 @@
+/*Set margins to 0 to match current styling*/
+body {
+    margin: 0em;
+    padding-bottom: 446px;
+    font-family: Tahoma,Verdana,Arial,Helvetica;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Styling for the top bar. This will change to something more precise with backgrounds and whatnot*/
+#top_bar {
+    background-color: #af1b26;
+    color: white;
+    height: 58.85px;
+    width: 100%;
+    margin: 0px;
+}
+
+/*This is the styling for the text on the left side of the top navigation bar*/
+header nav a {
+    margin-left: 10px;
+    line-height: 58.85px;
+    height: 58.85px;
+    font-family: Tahoma,Verdana,Arial,Helvetica;
+}
+
+/*This is the styling for the button on the top right*/
+header nav button {
+    background: transparent;
+    line-height: 58.85px;
+    height: 58.85px;
+    float: right;
+    margin-right: 20px;
+    border: none;
+    width: 93px;
+}
+
+
+/*Styling for main image of the page*/
+section#image {
+    width: 100%;
+    height: 300px;
+    background-image: url('/img_srcs/bg_greenery.JPG');
+    background-size: cover;
+}
+
+section img {
+    width: 100%;
+    height: 300px;
+}
+/*End styling for main image. FIND OUT HOW TO NOT RESIZE IT ALL UGLY LIKE IT IS NOW*/
+
+/*Styling for the red middle bar*/
+#middle_bar {
+    background-color: #af1b26;
+    color: white;
+    height: 45px;
+    margin-top: 0;
+    width: 100%;
+    padding-top: 0;
+}
+#middle_hazard_bar {
+    background-color: #cd2331;
+    color: white;
+    height: 44px;
+    margin-top: 0;
+    width: 100%;
+    padding-top: 0;
+    text-align: center;
+}
+
+section nav {
+    margin-left: 10px;
+    line-height: 45px;
+    height: 45px;
+    font-family: Tahoma,Verdana,Arial,Helvetica;
+    padding: 0;
+}
+
+body section#body {
+    padding: 50px;
+}
+
+/*Main section content styling and position*/
+body section#main_content_left {
+    padding-left: 45px;
+    padding-right: 45px;
+    float: left;
+    background-color: white;
+    width: 65%;
+    height: auto;
+}
+
+/*Contact info section styling and position*/
+body section#main_content_contact_info {
+    padding-left: 20px;
+    padding-right: 65px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    float: left;
+    background-color: #E5E5E5;
+    color: #AF1B26;
+    width: auto;
+    height: auto;
+}
+
+h1#main {
+    color: #890000;
+    font-size: 45px;
+}
+
+p {
+    color: #494A4C;
+}
+
+h2, h1 {
+    color: #890000;
+}
+/* This is the CSS for the segment control for the hazards */
+.segmented-control {
+    display: table;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.segmented-control__item {
+    display: inline-table;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.segmented-control__input {
+    position: absolute;
+    visibility: hidden;
+}
+
+.segmented-control__label {
+    display: block;
+    margin: 0 -1px -1px 0px; /* -1px margin removes double-thickness borders between items */
+    padding: 1em 1em;
+
+    border: 0 solid #ddd;
+
+    font: 14px sans-serif;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.segmented-control__label:hover {
+    background: #e4e4e4;
+    color: #cd2331;
+}
+
+.segmented-control__input:checked + .segmented-control__label {
+    background: #eee;
+    color: #333;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+    display: none;
+    padding: 80px;
+    text-align: left;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    /* This will hide the arrow buttons for the slide box */
+    visibility: hidden;
+}
+
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: #890000;
+    color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
