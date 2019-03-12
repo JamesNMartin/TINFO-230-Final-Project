@@ -1,7 +1,7 @@
 /*Set margins to 0 to match current styling*/
 body {
     margin: 0em;
-    padding-bottom: 446px;
+    padding-bottom: 0;
     font-family: Tahoma,Verdana,Arial,Helvetica;
 }
 
@@ -82,6 +82,7 @@ section nav {
 
 body section#body {
     padding: 50px;
+    padding-bottom: 300px;
 }
 
 /*Main section content styling and position*/
@@ -105,6 +106,7 @@ body section#main_content_contact_info {
     color: #AF1B26;
     width: auto;
     height: auto;
+    border-radius: 12px;
 }
 
 h1#main {
@@ -166,6 +168,7 @@ h2, h1 {
 .slideshow-container {
     position: relative;
     background: #f1f1f1f1;
+    border-radius: 12px;
 }
 
 /* Slides */
@@ -175,6 +178,27 @@ h2, h1 {
     text-align: left;
 }
 
+.prepare-container {
+    position: relative;
+    background: #f1f1f1f1;
+    border-radius: 12px;
+    padding: 80px;
+    text-align: left;
+}
+.family-section {
+    position: relative;
+    background: rgba(230, 230, 230, 0.95);
+    border-radius: 12px;
+    padding: 40px;
+    text-align: left;
+}
+.quick-tips {
+    position: relative;
+    background: rgba(230, 230, 230, 0.95);
+    border-radius: 12px;
+    padding: 40px;
+    text-align: left;
+}
 /* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
@@ -234,3 +258,174 @@ q {font-style: italic;}
 
 /* Add a blue color to the author */
 .author {color: cornflowerblue;}
+/*Footer stuff*/
+table {
+    border-spacing:20px 2px;
+    float:left;
+}
+
+footer {
+    float: left;
+    position: relative;
+    text-align:left;
+    font-size:small;
+    color: white;
+    background-color: darkred;
+    padding: 15px;
+    width: 98.4%;
+    bottom: 0;
+    margin-top: 100px;
+}
+img#coblogo {
+    float:left
+}
+
+table {
+
+    border-spacing:20px 2px;
+    float:left;
+}
+button#backtotop {
+    float:right;
+    border-radius:50%;
+    background-color:white;
+    border:none;
+    text-align:center;
+    /*top,right,btm,left*/
+    padding:15px 20px 15px 20px;
+    margin-right: auto;
+
+}
+a#footer:link {
+    color: white;
+    text-decoration-line: underline;
+}
+
+a#footer:visited {
+    color: white;
+    text-decoration-line: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.accordion {
+    background-color: #880001;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+    color: white;
+    border-radius: 12px;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+    color: #880001;
+}
+.panel {
+    padding: 0 18px;
+    background-color: #f1f1f1f1;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer stuff*/
+table {
+    border-spacing:20px 2px;
+    float:left;
+}
+
+footer {
+    float: left;
+    position: relative;
+    text-align:left;
+    font-size:small;
+    color: white;
+    background-color: darkred;
+    padding: 15px;
+    width: 98.4%;
+    bottom: 0;
+    margin-top: 100px;
+}
+img#coblogo {
+    float:left
+}
+
+table {
+
+    border-spacing:20px 2px;
+    float:left;
+}
+button#backtotop {
+    float:right;
+    border-radius:50%;
+    background-color:white;
+    border:none;
+    text-align:center;
+    /*top,right,btm,left*/
+    padding:15px 20px 15px 20px;
+    margin-right: auto;
+
+}
+a#footer:link {
+    color: white;
+    text-decoration-line: underline;
+}
+
+a#footer:visited {
+    color: white;
+    text-decoration-line: underline;
+}
+
+table {
+    border-spacing:20px 2px;
+    float:left;
+}
+
+footer {
+    text-align:left;
+    font-size:small;
+    color: white;
+    background-color: darkred;
+    position: relative;
+    bottom: 0;
+    margin-top: 300px;
+}
+
