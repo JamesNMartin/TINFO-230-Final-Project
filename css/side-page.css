@@ -106,7 +106,7 @@ body section#main_content_contact_info {
     color: #AF1B26;
     width: auto;
     height: auto;
-    border-radius: 12px;
+    /*border-radius: 12px;*/
 }
 
 h1#main {
@@ -168,7 +168,7 @@ h2, h1 {
 .slideshow-container {
     position: relative;
     background: #f1f1f1f1;
-    border-radius: 12px;
+    /*border-radius: 12px;*/
 }
 
 /* Slides */
@@ -181,7 +181,7 @@ h2, h1 {
 .prepare-container {
     position: relative;
     background: #f1f1f1f1;
-    border-radius: 12px;
+    /*border-radius: 12px;*/
     padding: 80px;
     text-align: left;
 }
@@ -195,7 +195,7 @@ h2, h1 {
 .quick-tips {
     position: relative;
     background: rgba(230, 230, 230, 0.95);
-    border-radius: 12px;
+    /*border-radius: 12px;*/
     padding: 40px;
     text-align: left;
 }
@@ -333,7 +333,7 @@ a#footer:visited {
     font-size: 16px;
     transition: 0.4s;
     color: white;
-    border-radius: 12px;
+    /*border-radius: 12px;*/
 }
 
 .active, .accordion:hover {
